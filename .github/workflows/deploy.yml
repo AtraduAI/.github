@@ -15,23 +15,23 @@ jobs:
     build:
         runs-on: ubuntu-latest
 
-    steps:
-        - name: Checkout repository
-          uses: actions/checkout@v2
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v2
 
-        - name: Set up Ruby
-          uses: ruby/setup-ruby@v1
-          with:
-              ruby-version: '3.3'
+            - name: Set up Ruby
+              uses: ruby/setup-ruby@v1
+              with:
+                  ruby-version: '3.3'
 
-        - name: Install kramdown
-          run: gem install kramdown
+            - name: Install kramdown
+              run: gem install kramdown
 
-        - name: Convert README.md to index.html
-          run: kramdown profile/README.md > index.html
+            - name: Convert README.md to index.html
+              run: kramdown profile/README.md > index.html
 
-        - name: Deploy to GitHub Pages
-          uses: peaceiris/actions-gh-pages@v3
-          with:
-              github_token: ${{ secrets.GITHUB_TOKEN }}
-              publish_dir: ./public
+            - name: Deploy to GitHub Pages
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: ./public
