@@ -36,9 +36,6 @@ jobs:
             - name: Install kramdown
               run: gem install kramdown
 
-            - name: Create root dir
-              run: mkdir public
-
             - name: Convert README.md to index.html
               run: kramdown profile/README.md > index.html
 
@@ -46,4 +43,4 @@ jobs:
               uses: peaceiris/actions-gh-pages@v4
               with:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
-                  publish_dir: ./
+                  publish_dir: .github/
