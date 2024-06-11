@@ -1,8 +1,11 @@
 # 🤖 The Next Generation of AI (AGI?)
 
 ## WHAT?
-### Changing Readme to see new update
+
+## Changing Readme to see new update
+
 ## Sending in more change
+
 ## Praise God, It works!!!!
 [We](https://Atradu.AI) know how to build [General Artificial Intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence) ([AGI](https://en.wikipedia.org/wiki/Artificial_general_intelligence)) - a true real thinking AI.
 
