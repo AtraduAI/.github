@@ -2,9 +2,6 @@
 
 ## WHAT?
 
-### Taking out changes to confirm that it works
-
-### Testing a change after removing workflow
 [We](https://Atradu.AI) know how to build [General Artificial Intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence) ([AGI](https://en.wikipedia.org/wiki/Artificial_general_intelligence)) - a true real thinking AI.
 
 It's a truly MASSIVE project that will require a lot of people to build.
