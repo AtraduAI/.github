@@ -38,7 +38,11 @@ jobs:
 
             - name: Convert README.md to index.html
               run: kramdown profile/README.md > index.html
-              
+
+            - name: Upload artifact
+              uses: actions/upload-pages-artifact@v3
+              with:
+                path: .
     # Deploy job
     deploy:
         # Add a dependency to the build job
