@@ -38,6 +38,18 @@ jobs:
 
             - name: Convert README.md to index.html
               run: kramdown profile/README.md > index.html
+            
+            # This enables Pages and extracts metadata about the site
+            - name: Setup Pages
+              id: pages
+              uses: actions/configure-pages@v5
+
+            # This produces Jekyll build artifacts and build with jekyll
+            - name: Build with Jekyll
+              uses: actions/jekyll-build-pages@v1
+              with:
+                source: .
+                destination: ./_site 
 
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v3
