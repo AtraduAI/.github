@@ -28,6 +28,10 @@ It only has single Input field and button.
 
 Here you can enter your tasks/problems and [Atradu.AI](https://Atradu.AI) will execute tasks and offer solutions to those problems :)
 
+## FUNDING?
+
+We will be following Wikipedia's principle - fully free for everyone and based on donations.
+
 # 🇱🇻 Nākamā Mākslīgā intelekta paaudze
 
 ## KAS?
@@ -58,3 +62,6 @@ Tur ir tikai viens ievades lauks un poga.
 
 Tajā jūs varat ievadīt savus uzdevumus/problēmas, un [Atradu.AI](https://Atradu.AI) piedāvās šo uzdevumu/problēmu risinājumus :)
 
+## FINANSĒJUMS?
+
+Mēs sekosim [Vikipēdijas principam](https://donate.wikimedia.org/w/index.php?title=Special:LandingPage&country=LV&uselang=lv) - pilnīgi brīvi priekš visiem un balstīti uz ziedojumiem.
