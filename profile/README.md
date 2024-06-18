@@ -16,7 +16,7 @@ Right now we are building one of them which is Advanced Intelligence.
 
 Once it's released it already will be useful for people.
 
-So come and join us :)
+So take [The Red Pill](https://en.wikipedia.org/wiki/Red_pill_and_blue_pill) and join us :)
 
 Message `davispuh` on [Discord](https://discord.com/) for more info.
 
@@ -50,7 +50,7 @@ Tas prasīs daudz dažādu mazāku bloku. Tādu ir daudz.
 
 Kad tas būs radīts, tas jau būs noderīgs cilvēkiem.
 
-Tāpēc nāc un pievienojies mums :)
+Tāpēc paņem Sarkano Tableti un pievienojies mums :)
 
 Lai iegūtu vairāk informācijas, nosūtiet ziņu `davispuh` [Discord'ā](https://discord.com/).
 
