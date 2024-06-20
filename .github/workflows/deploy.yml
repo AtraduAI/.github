@@ -27,17 +27,18 @@ jobs:
         steps:
             - name: Checkout repository
               uses: actions/checkout@v4
+            # Identified some unnecessary steps and commented them out
 
-            - name: Set up Ruby
-              uses: ruby/setup-ruby@v1
-              with:
-                  ruby-version: '3.3'
+            # - name: Set up Ruby
+            #   uses: ruby/setup-ruby@v1
+            #   with:
+            #       ruby-version: '3.3'
 
-            - name: Install kramdown
-              run: gem install kramdown
+            # - name: Install kramdown
+            #   run: gem install kramdown
 
-            - name: Convert README.md to index.html
-              run: kramdown profile/README.md > index.html
+            # - name: Convert README.md to index.html
+            #   run: kramdown profile/README.md > index.html
             
             # This enables Pages and extracts metadata about the site
             - name: Setup Pages
@@ -48,13 +49,13 @@ jobs:
             - name: Build with Jekyll
               uses: actions/jekyll-build-pages@v1
               with:
-                source: .
-                destination: ./_site 
+                source: ./profile
+              #   destination: ./_site 
 
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v3
-              with:
-                path: .
+              # with:
+              #   path: .
     # Deploy job
     deploy:
         # Add a dependency to the build job
