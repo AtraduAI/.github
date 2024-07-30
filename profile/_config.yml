@@ -57,7 +57,3 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-include:
-  - profile/.well-known/acme-challenge/V4b5lrgCuUkvNPe8FSFVCpfLkGxen6AkDbkEI_eW8cw
-
-
