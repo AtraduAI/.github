@@ -58,6 +58,6 @@ plugins:
 #   - vendor/ruby/
 
 include:
-  - '.well-known/**'
+  - 'profile/**'
 
 
