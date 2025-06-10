@@ -25,3 +25,15 @@ Tas ir LIELS projekts, kura izveidei būs nepieciešami daudzi cilvēki.
 Tāpēc paņem *Sarkano Tableti* un pievienojies mums :)
 
 Lai iegūtu vairāk informācijas, sūti ziņu `davispuh` [Discord'ā](https://discord.com/).
+
+## Rekvizīti / Company details
+
+Name / Nosaukums: **Atradu.AI +Ģ?=96,87%; AS**
+
+E-Mail / E-pasts: Atraduⓐ{this domain}
+
+Address / Adrese: Kalnu iela 13 - 10, Kūdra, Aizputes pag., Dienvidkurzemes nov., LV-3456
+
+Reg no. / Reģ. nr.: 40203651134
+
+VAT / PVN: LV40203651134
